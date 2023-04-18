@@ -8,9 +8,7 @@ html {
 #bg-img {
   /* image used */
   background-image: url("../Pictures/Violin-undrewater-main-title.jpg");
-
   height: 100%;
-
   /* positioning the image*/
   background-position: center;
   background-repeat: no-repeat;
