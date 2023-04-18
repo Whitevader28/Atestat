@@ -1,5 +1,5 @@
 let listVideo = document.querySelectorAll('.video-list .vid');
-let mainVideo = document.querySelector('.main-video .video');
+let mainVideo = document.querySelector('.main-video video');
 let title = document.querySelector('.main-video .title');
 
 listVideo.forEach(video => {
