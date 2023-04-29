@@ -1,0 +1,84 @@
+footer,
+main,
+html {
+    background-color: #eee;
+}
+
+.year {
+    background-color: #eee;
+}
+
+.about-us {
+    height: 100vh;
+    width: 100%;
+    padding: 90px 0px;
+    background-color: #eee;
+}
+
+.pic {
+    height: auto;
+    width: 302px;
+    padding-right: 30px;
+}
+
+.about {
+    padding-top: 70px;
+    width: 1130px;
+    height: 75%;
+    max-width: 85%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.text {
+    max-width: 540px;
+}
+
+.text h2 {
+    font-size: 90px;
+    font-weight: 600;
+    margin-bottom: 10px;
+
+}
+
+.text h5 {
+    font-size: 22px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+span {
+    color: #4070f4;
+}
+
+.text p {
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 1px;
+}
+
+.data {
+    margin-top: 30px;
+}
+
+footer p {
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+@media (max-width: 768px) {
+    .about {
+        display: block;
+        padding-top: 10px;
+    }
+
+    .pic {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 10px
+    }
+
+}

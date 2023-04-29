@@ -10,6 +10,11 @@ html {
   font-weight: normal;
 }
 
+footer {
+  max-height: 10px;
+  display: block;
+}
+
 #navbar {
   background-color: #0a2841;
   position: fixed;
