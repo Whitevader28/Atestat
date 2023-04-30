@@ -1,5 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Music&display=swap');
 #bg-img {
-  /* image used */
+  /* image used on the whole view*/
   background-image: url("../Pictures/Violin-undrewater-main-title.jpg");
   height: 100%;
   /* positioning the image*/
@@ -9,6 +10,23 @@
 
 }
 
+/* text positioning */
+#title-container {
+  position: relative;
+  text-align: center;
+  color: white;
+  height: 100%;
+}
+
+#title-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 250px;
+}
+
+/* timeline styling */
 :root {
   --primary: #37a9e1;
   --primary-gradient: linear-gradient(45deg, #063249 0%, #3e8281 100%);

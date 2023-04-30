@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Music&display=swap');
+
 main,
 body,
 html {
@@ -7,6 +9,14 @@ html {
   box-sizing: border-box;
   height: 100%;
   font-weight: normal;
+}
+
+#title-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 250px;
 }
 
 /* Style footer 
