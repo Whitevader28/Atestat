@@ -1,5 +1,4 @@
 main,
-footer,
 body,
 html {
   margin: 0;
@@ -10,10 +9,11 @@ html {
   font-weight: normal;
 }
 
-/* Style footer */
+/* Style footer 
 footer {
-  position: relative;
-  max-height: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  max-height: 20px;
+  position: absolute;
   bottom: 0;
 }
 
@@ -21,6 +21,8 @@ footer p {
   text-align: center;
   padding-bottom: 25px;
 }
+
+*/
 
 #navbar {
   background-color: #0a2841;
