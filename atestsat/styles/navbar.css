@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Music&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,600;1,300&display=swap');
 
 main,
 body,
@@ -16,7 +16,18 @@ html {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  font-size: 250px;
+  font-size: min(300px, 20vw);
+  color: #fcfbe6;
+  font-family: 'Cormorant Garamond', 'Times New Roman', Times, serif;
+  text-shadow: 1px 1px 1px #000, 
+  3px 3px 5px #05223d; 
+}
+
+@media (max-width: 768px)
+{
+  #title-text{
+    padding-bottom: 150px;
+  }
 }
 
 /* Style footer 
@@ -67,12 +78,6 @@ footer p {
   background-color: #ddd;
   color: black;
 }
-
-#title-text{
-  font-family: Noto Music;
-}
-
-
 
 
 

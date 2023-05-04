@@ -106,4 +106,7 @@ body {
     .container {
         grid-template-columns: 1fr;
     }
+    #dummy{
+        min-height: 50px;
+    }
 }
