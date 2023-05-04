@@ -80,4 +80,7 @@ span {
         padding: 10px
     }
 
+    #dummy{
+        min-height: 50px;
+    }
 }
